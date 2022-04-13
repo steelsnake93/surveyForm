@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500&display=swap');
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 2.1em;
+    background-color: rgb(63, 98, 255);
+}
 
+.container {
+    max-width: 45rem;
+    font-weight: 400;
+    margin: 0 auto ;
+}
+
+.header {
+    text-align: center;
+}
+.survey-form {
+    padding: 10em;
+}
+.form {
+    border: 1px solid;
+    border-radius: 10px;
+}
+.form-group {
+    box-sizing: border-box;
+    padding-left: 4.5em;
 }
